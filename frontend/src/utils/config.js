@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://wonderwave.onrender.com/api/v1'
+export const BASE_URL = 'https://wwbackend.onrender.com/api/v1'
