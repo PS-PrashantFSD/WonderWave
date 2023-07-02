@@ -32,7 +32,7 @@ const connect = async () => {
 
 //middleware
 app.use(express.json());
-app.use(cors({ origin: 'https://wonderwave.onrender.com', credentials: true }));
+app.use(cors({ origin: true , credentials: true }));
 app.use(cookieParser());
 app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/tours', tourRoute);
